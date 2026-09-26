@@ -103,6 +103,7 @@ httpx2-jsfetch==1.0 ; sys_platform == 'emscripten'
     # via httpx2
 huggingface-hub==1.33.0
     # via
+    #   langchain-huggingface
     #   sentence-transformers
     #   tokenizers
     #   transformers
@@ -141,11 +142,14 @@ langchain-core==1.6.5
     #   langchain
     #   langchain-classic
     #   langchain-community
+    #   langchain-huggingface
     #   langchain-text-splitters
     #   langgraph
     #   langgraph-checkpoint
     #   langgraph-prebuilt
     #   langgraph-sdk
+langchain-huggingface==1.2.2
+    # via ai-research-assistant-main
 langchain-protocol==0.0.19
     # via
     #   langchain-core
@@ -366,6 +370,7 @@ threadpoolctl==3.7.0
     # via scikit-learn
 tokenizers==0.23.2
     # via
+    #   langchain-huggingface
     #   sentence-transformers
     #   transformers
 toml==0.10.2
