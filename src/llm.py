@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from google import genai
-from langchain_groq import ChatGroq
+#from langchain_groq import ChatGroq
 
 load_dotenv()
 
