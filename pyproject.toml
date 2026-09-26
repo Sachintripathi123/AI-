@@ -1,0 +1,19 @@
+[project]
+name = "ai-research-assistant-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sachintripathi123", email = "sachintripathi6306492549@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+]
+
+[project.scripts]
+ai-research-assistant-main = "ai_research_assistant_main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
